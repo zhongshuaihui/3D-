@@ -181,7 +181,6 @@ namespace Com.Mygame
         {
             GameObject Canvas = Camera.Instantiate(Resources.Load("Prefab/Canvas")) as GameObject;
             GameObject GameText = Camera.Instantiate(Resources.Load("Prefab/GameText"),Canvas.transform) as GameObject;
-            
             GameText.GetComponent<Text>().text = text;
         }
     }
